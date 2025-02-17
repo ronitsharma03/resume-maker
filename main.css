@@ -115,10 +115,6 @@ a{
     padding: 0 1.6rem;
 }
 
-.btn-container{
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 /* bars button */
 .bars{

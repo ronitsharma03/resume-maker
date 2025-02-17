@@ -10,7 +10,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 
 // Database connection
-$conn = new mysqli('127.0.0.1', 'root', 'password', 'resume');
+$conn = new mysqli('127.0.0.1', 'root', 'mypass', 'resume');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }

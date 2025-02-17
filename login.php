@@ -1,13 +1,11 @@
-
 <?php
-// Start session
 session_start();
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Database connection
-$conn = new mysqli('127.0.0.1', 'root', 'password', 'resume');  
+$conn = new mysqli('127.0.0.1', 'root', 'mypass', 'resume');  
 
 if ($conn->connect_error) {
     die("<p style='color:red;'>Connection failed: " . $conn->connect_error . "</p>");
